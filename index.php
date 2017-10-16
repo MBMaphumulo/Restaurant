@@ -12,6 +12,9 @@
         background: url('images/tables2.jpg') no-repeat;
       }
 
+      .navbar{
+        z-index:99999;
+      }
       #overlay {
           position: fixed;
           width: 100%; 
@@ -24,9 +27,8 @@
           z-index: -1; 
           cursor: pointer; 
       }
-      .navbar {
+      .carousel-inner {
         border-bottom: 2px solid aqua;
-        height: 58px;
       }    
       .navbar li:hover{
         padding-top: -5px;
@@ -37,7 +39,6 @@
       }      
 
       .carousel-inner{
-        margin-top: -20px;
       }
 
       .active{

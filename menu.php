@@ -6,7 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style/bootstrap.css" type="text/css" />
      <link rel="stylesheet" href="style/font-awesome.min.css" type="text/css" />
-    <style>
+   
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+    function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="style/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- pop-up -->
+<link href="style/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //pop-up -->
+<link href="style/mislider.css" rel="stylesheet" type="text/css" />
+<link href="style/mislider-custom.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href="style/font-awesmoe.css" rel="stylesheet"> 
+<script type="text/javascript" src="script/modernizr-2.6.2.min.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+
+<!--/web-fonts-->
+<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<!--//web-fonts-->
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
        body{
         background: url('images/tables2.jpg') no-repeat;
       }
@@ -23,10 +45,13 @@
           z-index: -1; 
           cursor: pointer; 
       }
+
       .navbar {
         border-bottom: 2px solid aqua;
         height: 58px;
+        z-index:99999;
       }    
+      
       .navbar li:hover{
         padding-top: -5px;
         border-bottom: 5px solid aqua;
@@ -36,7 +61,6 @@
       }      
 
       .carousel-inner{
-        margin-top: -20px;
       }
 
       .active{
@@ -47,8 +71,8 @@
         color:white;
       }
     </style>
-  </head>
-  <body>
+</head>
+<body>
 <div id="overlay"></div>
 <div class="container">
     <nav class="navbar navbar-inverse">
@@ -94,8 +118,83 @@
 </nav>
 
 
-<h1>Menu</h1>
+
+<div class="clients-section" style="background-color: white;margin-top: 20px;">
+      <div class="title-agileits">
+           <center> <h3 class="w3l-agile"><h2><b>Our Customers <span style="color:rgba(24,14,20,0.5); ">Says</span></b></h2></h3> </center>
+      </div>
+      <div class="mis-stage"> 
+        <!-- The element to select and apply miSlider to - the class is optional -->
+        <ol class="mis-slider">
+          <!-- The slider element - the class is optional -->
+          <li class="mis-slide"> 
+          <!-- A slide element - the class is optional --> 
+            <a href="#" class="mis-container"> 
+            <!-- A slide container - this element is optional, if absent the plugin adds it automatically -->
+            <figure> 
+            <!-- Slide content - whatever you want --> 
+            <img src="images/t1.jpg" alt=" " class="img-responsive" />
+            <figcaption>Carl Lii<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            </figure>
+            </a> </li>
+          <li class="mis-slide"> <a href="#" class="mis-container">
+            <figure> <img src="images/t2.jpg" alt=" " class="img-responsive" />
+            <figcaption>Michael Paul<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </figure>
+            </a> </li>
+          <li class="mis-slide"> <a href="link" class="mis-container">
+            <figure> <img src="images/t3.jpg" alt=" " class="img-responsive" />
+            <figcaption>Henry Doe<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            </figure>
+            </a> </li>
+          <li class="mis-slide"> <a href="#" class="mis-container">
+            <figure> <img src="images/t4.jpg" alt=" " class="img-responsive" />
+            <figcaption>Laura James<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </figure>
+            </a> </li>
+          <li class="mis-slide"> <a href="#" class="mis-container">
+            <figure> <img src="images/t1.jpg" alt=" " class="img-responsive" />
+            <figcaption>Thomas Carl<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </figure>
+            </a> </li>
+          <li class="mis-slide"> <a href="#" class="mis-container">
+            <figure> <img src="images/t5.jpg" alt=" " class="img-responsive" />
+            <figcaption>Rosy Crisp<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </figure>
+            </a> </li>
+        </ol>
+
+      </div>
 </div>
+</div>  
+
+
+
     <script src="script/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="script/bootstrap.min.js" type="text/javascript"></script>
         <script type="text/javascript">
@@ -104,5 +203,58 @@
          $(this).addClass('active');
       });
     </script>
+        <script type="text/javascript" src="script/jquery-2.1.4.min.js"></script>
+
+
+    <script type="text/javascript" src="script/jquery.zoomslider.min.js"></script>
+    <!-- search-jQuery -->
+    <script src="script/main.js"></script>
+    <!-- pop-up-box -->  
+    <script src="script/jquery.magnific-popup.js" type="text/javascript"></script>
+    <!--//pop-up-box -->
+    <script src="script/responsiveslides.min.js"></script>
+              <script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                  // Slideshow 4
+                  $("#slider3").responsiveSlides({
+                  auto: true,
+                  pager:false,
+                  nav:true,
+                  speed: 500,
+                  namespace: "callbacks",
+                  before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                  },
+                  after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                  }
+                  });
+              
+                });
+               </script>
+      <script src="script/mislider.js" type="text/javascript"></script>
+      <script type="text/javascript">
+        jQuery(function ($) {
+          var slider = $('.mis-stage').miSlider({
+            //  The height of the stage in px. Options: false or positive integer. false = height is calculated using maximum slide heights. Default: false
+            stageHeight: 380,
+            //  Number of slides visible at one time. Options: false or positive integer. false = Fit as many as possible.  Default: 1
+            slidesOnStage: false,
+            //  The location of the current slide on the stage. Options: 'left', 'right', 'center'. Defualt: 'left'
+            slidePosition: 'center',
+            //  The slide to start on. Options: 'beg', 'mid', 'end' or slide number starting at 1 - '1','2','3', etc. Defualt: 'beg'
+            slideStart: 'mid',
+            //  The relative percentage scaling factor of the current slide - other slides are scaled down. Options: positive number 100 or higher. 100 = No scaling. Defualt: 100
+            slideScaling: 150,
+            //  The vertical offset of the slide center as a percentage of slide height. Options:  positive or negative number. Neg value = up. Pos value = down. 0 = No offset. Default: 0
+            offsetV: -5,
+            //  Center slide contents vertically - Boolean. Default: false
+            centerV: true,
+            //  Opacity of the prev and next button navigation when not transitioning. Options: Number between 0 and 1. 0 (transparent) - 1 (opaque). Default: .5
+            navButtonsOpacity: 1,
+          });
+        });
+      </script>
   </body>
 </html>

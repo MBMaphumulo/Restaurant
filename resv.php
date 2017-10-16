@@ -24,10 +24,15 @@
           z-index: -1; 
           cursor: pointer; 
       }
-      .navbar {
+      .carousel-inner{
         border-bottom: 2px solid aqua;
         height: 58px;
+
       }    
+
+      .navbar{
+        z-index:99999;
+      }
       .navbar li:hover{
         padding-top: -5px;
         border-bottom: 5px solid aqua;
@@ -37,7 +42,6 @@
       }      
 
       .carousel-inner{
-        margin-top: -20px;
       }
 
       .active{
