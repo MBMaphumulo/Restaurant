@@ -67,7 +67,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Restaurant</a>
+     <center> <a class="navbar-brand" href="#">Restaurant</a></center>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,18 +81,26 @@
           <ul class="dropdown-menu">
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Our Restaurants</a></li>
-            <li><a href="#">New Features</a></li>
+            <li><a href="#">Help</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Terms&Conditions</a></li>
           </ul>
         </li>
       </ul>
-      <h5 class="navbar-right" style="color:aqua;font-weight: bolder;">Call : (031) 000 0000</h5>
+        <div class="col-md-3 navbar-right" style="margin-top:10px;">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </span>
+          </div><!-- /input-group -->
+      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+<center>
 <h1>Reservations</h1>
+</center>
 <div class="row">
   <div class="col-md-4"></div>
   <div class="col-md-4">

@@ -83,13 +83,20 @@
           <ul class="dropdown-menu">
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Our Restaurants</a></li>
-            <li><a href="#">New Features</a></li>
+            <li><a href="#">Help</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Terms&Conditions</a></li>
           </ul>
         </li>
       </ul>
-      <h5 class="navbar-right" style="color:aqua;font-weight: bolder;">Call : (031) 000 0000</h5>
+        <div class="col-md-3 navbar-right" style="margin-top:10px;">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </span>
+          </div><!-- /input-group -->
+      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -103,6 +110,8 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
+
+
     <div class="item active">
       <center>
       <img style="width:100%;height: 500px;" src="images/breakfast1.jpg" alt="food">
@@ -113,6 +122,9 @@
         <h2>Price : R30</h2>
       </div>
     </div>
+
+
+
      <div class="item ">
            <center>
       <img style="width:100%;height: 500px;" src="images/meal1.jpg" alt="food">
