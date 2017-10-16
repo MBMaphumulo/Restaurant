@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style/bootstrap.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style/animate.css" rel="stylesheet" type="text/css">
+    <link href="style/css-plugin-collections.css" rel="stylesheet"/>
+    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+    <link href="style/style-main.css" rel="stylesheet" type="text/css">
+    <link href="style/colors/theme-skin-lemon.css" rel="stylesheet" type="text/css">
+    <link href="style/preloader.css" rel="stylesheet" type="text/css">
+    <link href="style/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+    <link href="style/responsive.css" rel="stylesheet" type="text/css">
      <link rel="stylesheet" href="style/font-awesome.min.css" type="text/css" />
     <style>
        body{
@@ -129,9 +137,9 @@
             <li><a href="#">Login</a></li>
             <li><a href="#">Register</a></li>
           </ul>
-        <div class="col-md-3 navbar-right" style="margin-top:10px;">
+        <div class="col-md-3 navbar-right" style="margin-top:5px;">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for...">
+            <input type="text" class="form-control" placeholder="Search for..." style="height: 42px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;  ">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
             </span>
@@ -160,7 +168,7 @@
       <div class="carousel-caption">
         <h1>Breakfast</h1>
         <p>Breakfast Description</p>
-        <h2>Price : R30</h2>
+        <h3 style="color:white;margin-bottom: 10px;">Price : R30</h3>
       </div>
     </div>
 
@@ -173,7 +181,7 @@
       <div class="carousel-caption">
         <h1>Meal</h1>
         <p>Meal Description</p>
-        <h2>Price : R90</h2>
+        <h3 style="color:white;margin-bottom: 10px;">Price : R90</h3>
       </div>
     </div>
      <div class="item ">      
@@ -183,7 +191,7 @@
       <div class="carousel-caption">
         <h1>Desert</h1>
         <p>Desert Description</p>
-        <h2>Price : R10</h2>
+        <h3 style="color:white;margin-bottom: 10px;">Price : R10</h3>
       </div>
     </div>
   </div>
@@ -202,17 +210,114 @@
 </div>
 
 <div class="container slide" style="background-color: white; width: 100%; margin-top:20px; margin-bottom: 20px; border-radius: 2px;">
+   <center> <h2>Our Values</h2></center>
   <div class="col-md-8" >
-       <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h3>MISSION</h3><h4> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+
+      <br>
+
+      <h3>VISION</h3> <h4>Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
   </div>
   <div class="col-md-4" style="padding: 30px;">
    <span> <img src="images/food1.jpg" class="img-rounded slide" alt="Cinque Terre" width="325" height="250"></span>
   </div>
 
 </div>
+ 
+  <!-- Footer -->
+  <footer id="footer" class="footer divider parallax layer-overlay overlay-dark-9" data-bg-img="images/7.jpg" data-parallax-ratio="0.7">
+    <div class="container pt-70 pb-40">
+      <div class="row mt-30">
+        <div class="col-md-5">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Subscribe Us</h5>
+            <!-- Mailchimp Subscription Form Starts Here -->
+            <form id="mailchimp-subscription-form-footer" class="newsletter-form">
+              <div class="input-group">
+                <input type="email" value="" name="EMAIL" placeholder="Your Email" class="form-control input-lg font-16" data-height="30px" style="height: 29px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;" id="mce-EMAIL-footer" >
+                <span class="input-group-btn">
+                  <button data-height="45px" class="btn btn-colored btn-theme-colored btn-xs m-0 font-14" type="submit">Subscribe</button>
+                </span>
+              </div>
+            </form>
+            <!-- Mailchimp Subscription Form Validation-->
+            <script type="text/javascript">
+              $('#mailchimp-subscription-form-footer').ajaxChimp({
+                  callback: mailChimpCallBack,
+                  url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
+              });
+
+              function mailChimpCallBack(resp) {
+                  // Hide any previous response text
+                  var $mailchimpform = $('#mailchimp-subscription-form-footer'),
+                      $response = '';
+                  $mailchimpform.children(".alert").remove();
+                  if (resp.result === 'success') {
+                      $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  } else if (resp.result === 'error') {
+                      $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  }
+                  $mailchimpform.prepend($response);
+              }
+            </script>
+            <!-- Mailchimp Subscription Form Ends Here -->
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Call Us Now</h5>
+            <div class="text-gray">
+              +61 3 1234 5678 <br>
+              +12 3 1234 5678
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Connect With Us</h5>
+            <ul class="styled-icons icon-dark icon-circled icon-sm">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom bg-black-333">
+      <div class="container pt-20 pb-20">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="font-11 text-black-777 m-0">Copyright &copy;2015 ThemeMascot. All Rights Reserved</p>
+          </div>
+          <div class="col-md-6 text-right" style="margin-left: -50px;">
+            <div class="widget no-border m-0">
+              <ul class="list-inline sm-text-center mt-5 font-12">
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>|</li>
+                <li>
+                  <a href="#">Help Desk</a>
+                </li>
+                <li>|</li>
+                <li>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<!-- end wrapper --> 
+
+<!-- Footer Scripts --> 
 </div>
     <script src="script/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="script/bootstrap.min.js" type="text/javascript"></script>
