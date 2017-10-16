@@ -378,7 +378,7 @@ window.onclick = function(event) {
             <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
             <li><a href="#" onclick="document.getElementById('id02').style.display='block'">Register</a></li>
           </ul>
-        <div class="col-md-3 navbar-right" style="margin-top:5px;">
+        <div class="col-md-3 navbar-right" style="margin-top:0;">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for..." style="height: 42px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;  ">
             <span class="input-group-btn">
