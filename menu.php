@@ -236,44 +236,49 @@
             <!-- Slide content - whatever you want --> 
             <img src="images/t1.jpg" alt=" " class="img-responsive" />
             <figcaption>Carl Lii<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star"></span>
             </figure>
             </a> </li>
           <li class="mis-slide"> <a href="#" class="mis-container">
             <figure> <img src="images/t2.jpg" alt=" " class="img-responsive" />
             <figcaption>Michael Paul<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
             <span class="fa fa-star"></span>
             </figure>
             </a> </li>
           <li class="mis-slide"> <a href="link" class="mis-container">
             <figure> <img src="images/t3.jpg" alt=" " class="img-responsive" />
             <figcaption>Henry Doe<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked " style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
             </figure>
             </a> </li>
           <li class="mis-slide"> <a href="#" class="mis-container">
             <figure> <img src="images/t4.jpg" alt=" " class="img-responsive" />
             <figcaption>Laura James<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
             <span class="fa fa-star"></span>
             </figure>
             </a> </li>
           <li class="mis-slide"> <a href="#" class="mis-container">
             <figure> <img src="images/t1.jpg" alt=" " class="img-responsive" />
             <figcaption>Thomas Carl<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             </figure>
@@ -281,10 +286,10 @@
           <li class="mis-slide"> <a href="#" class="mis-container">
             <figure> <img src="images/t5.jpg" alt=" " class="img-responsive" />
             <figcaption>Rosy Crisp<span>Sed maximus eros quis leo congue ipsum sagittis.</span></figcaption>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
+            <span class="fa fa-star checked" style=" color:gold;"></span>
             <span class="fa fa-star"></span>
             </figure>
             </a> </li>
