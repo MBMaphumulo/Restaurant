@@ -86,6 +86,42 @@
         list-style-type: none;
         margin-left: -50px;
       }
+
+      .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  .slideImg{
+    animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }
+    @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+
     </style>
 </head>
 <body>
@@ -121,6 +157,10 @@
           </ul>
         </li>
       </ul> 
+       <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
         <div class="col-md-3 navbar-right" style="margin-top:10px;">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for...">
@@ -134,8 +174,8 @@
 </nav>
 </div>
 
-<center><h1>Menu</h1></center>
-<div class="row rowcards text-center">
+<center><h1 class="slide">Menu</h1></center>
+<div class="row rowcards text-center slide" >
   <div class="col-md-4 card"><img src="images/food1.jpg" alt="image" />
     <h2>Breakfast</h2>
     <ul class="foodlist">
@@ -175,7 +215,7 @@
 
 
 
-<div class="clients-section" style="background-color: white;padding-top: 20px;">
+<div class="clients-section slide" style="background-color: white;padding-top: 20px;">
       <div class="title-agileits">
            <center> <h3 class="w3l-agile"><h2><b>Our Customers <span style="color:rgba(24,14,20,0.5); ">Says</span></b></h2></h3> </center>
       </div>

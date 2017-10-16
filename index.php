@@ -125,6 +125,10 @@
           </ul>
         </li>
       </ul>
+       <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
         <div class="col-md-3 navbar-right" style="margin-top:10px;">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for...">
@@ -133,6 +137,7 @@
             </span>
           </div><!-- /input-group -->
       </div>
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

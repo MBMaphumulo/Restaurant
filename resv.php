@@ -57,6 +57,41 @@
         color:white;
       }
 
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  .slideImg{
+    animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }
+    @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+
     </style>
   </head>
   <body>
@@ -92,6 +127,10 @@
           </ul>
         </li>
       </ul>
+       <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
         <div class="col-md-3 navbar-right" style="margin-top:10px;">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for...">
@@ -104,9 +143,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 <center>
-<h1>Reservations</h1>
+<h1 class="slide">Reservations</h1>
 </center>
-<div class="row">
+<div class="row slide">
   <div class="col-md-4"></div>
   <div class="col-md-4">
   <form action="" method="POST">
