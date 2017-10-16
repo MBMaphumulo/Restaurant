@@ -341,11 +341,5 @@
 
     <script src="script/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="script/bootstrap.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
-      $('nav li').click(function(){
-         $('nav li').removeClass('active');
-         $(this).addClass('active');
-      });
-    </script>
   </body>
 </html>
