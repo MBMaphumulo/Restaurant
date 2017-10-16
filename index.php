@@ -10,6 +10,7 @@
     <style>
        body{
         background: url('images/tables2.jpg') no-repeat;
+        background-attachment: fixed;
       }
 
       .navbar{

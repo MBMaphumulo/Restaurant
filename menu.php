@@ -31,6 +31,7 @@
  <style>
        body{
         background: url('images/tables2.jpg') no-repeat;
+        background-attachment: fixed;
       }
 
       #overlay {
@@ -44,14 +45,8 @@
           background-color: rgba(0,0,0,0.7);
           z-index: -1; 
           cursor: pointer; 
-      }
-
-      .navbar {
-        border-bottom: 2px solid aqua;
-        height: 58px;
-        z-index:99999;
       }    
-      
+
       .navbar li:hover{
         padding-top: -5px;
         border-bottom: 5px solid aqua;
@@ -69,6 +64,27 @@
 
        h1{
         color:white;
+      }
+
+      .rowcards {
+        margin-top: 20px;
+        background-color: transparent;
+        color:white;
+        border-radius: 10px;
+        padding:10px;
+        border:2px solid aqua; 
+
+      }
+      .rowcards .card img{
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        border:5px solid gold;
+      }
+
+      .foodlist li{
+        list-style-type: none;
+        margin-left: -50px;
       }
     </style>
 </head>
@@ -116,10 +132,50 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div>
+
+<center><h1>Menu</h1></center>
+<div class="row rowcards text-center">
+  <div class="col-md-4 card"><img src="images/food1.jpg" alt="image" />
+    <h2>Breakfast</h2>
+    <ul class="foodlist">
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+    </ul>
+  </div>
+  <div class="col-md-4 card"><img src="images/food2.jpg" alt="image" />
+    <h2>Meal</h2> <ul class="foodlist">
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+    </ul>
+  </div>
+  <div class="col-md-4 card"><img src="images/food5.jpg" alt="image" />
+    <h2>Desert</h2> <ul class="foodlist">
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+      <li> > Bacon and eggs</li>
+    </ul>
+  </div>
+</div>
+</div>  
 
 
 
-<div class="clients-section" style="background-color: white;margin-top: 20px;">
+<div class="clients-section" style="background-color: white;padding-top: 20px;">
       <div class="title-agileits">
            <center> <h3 class="w3l-agile"><h2><b>Our Customers <span style="color:rgba(24,14,20,0.5); ">Says</span></b></h2></h3> </center>
       </div>
@@ -191,8 +247,6 @@
 
       </div>
 </div>
-</div>  
-
 
 
     <script src="script/jquery-3.2.1.min.js" type="text/javascript"></script>
